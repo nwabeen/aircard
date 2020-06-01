@@ -264,6 +264,7 @@ textarea {
 }
 
 .button-black {
+  margin-top: 2em;
   background-color: black;
   border-color: black;
 }
@@ -277,3 +278,6 @@ input[type="text"] {
 #qrcode {
 visibility: hidden;
 }
+h6 {
+  font-size: 1.1rem;
+}     
