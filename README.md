@@ -15,7 +15,7 @@ The next way to share your number and email ! Hand over your smartphone to your 
 	</p>
 </p>
 
- ![](img/aircard-mockup.jpg)
+ ![](img/mockup.jpg)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
