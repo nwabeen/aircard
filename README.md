@@ -9,9 +9,9 @@
 	<p align="center">
 The next way to share your number and email ! Hand over your smartphone to your new contact and let them simply scan your wallpaper. 
 	<br />
-		<a href="https://github.com/aircard/aircard/issues">Report Bug</a>
+		<a href="https://github.com/nwabeen/aircard/issues">Report Bug</a>
 		·
-		<a href="https://github.com/aircard/aircard/issues">Request Feature</a>
+		<a href="https://github.com/nwabeen/aircard/issues">Request Feature</a>
 	</p>
 </p>
 
@@ -52,14 +52,14 @@ Special thanks to :
 Dani García
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/aircard/aicard.svg?style=flat-square
-[contributors-url]: https://github.com/aircard/aircard/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/aircard/aircard.svg?style=flat-square
-[forks-url]: https://github.com/Aircard/aircard/network/members
-[stars-shield]: https://img.shields.io/github/stars/aircard/aircard.svg?style=flat-square
-[stars-url]: https://github.com/Aircard/aircard/stargazers
-[issues-shield]: https://img.shields.io/github/issues/aircard/aircard.svg?style=flat-square
-[issues-url]: https://github.com/Aircard/aircard/issues
+[contributors-shield]: https://img.shields.io/github/contributors/nwabeen/aicard.svg?style=flat-square
+[contributors-url]: https://github.com/nwabeen/aircard/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/nwabeen/aircard.svg?style=flat-square
+[forks-url]: https://github.com/nwabeen/aircard/network/members
+[stars-shield]: https://img.shields.io/github/stars/nwabeen/aircard.svg?style=flat-square
+[stars-url]: https://github.com/nwabeen/aircard/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nwabeen/aircard.svg?style=flat-square
+[issues-url]: https://github.com/nwabeen/aircard/issues
 
 
 
