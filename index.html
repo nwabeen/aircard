@@ -34,10 +34,17 @@
     <input type="file"
            id="uploadedImage" onchange="displayCanvas()" name="wallpaper"
            accept="image/png, image/jpeg">
+          <select name="iphone" id="iphone-select">
+          <option value="750 1334">iPhone 6, 6s, 7, 8</option>
+            <option value="1242 2208">iPhone 6+,6s+,7+,8+</option>
+            <option value="1125 2436">iPhone 11 Pro, X, Xs</option>
+            <option value="828 1792">iPhone 11, Xr</option>
+            <option value="1242 2688">iPhone 11 Pro Max, Xs Max</option>
+          </select>
     <button id="saveButton" class="button button-black">Download wallpaper</button>
 </div>
     <div class="column">
-       <canvas id="canvas" width="1125" height="2436"></canvas>
+       <canvas id="canvas" width="" height=""></canvas>
 
       <img id="qrcode">
     </div>

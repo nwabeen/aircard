@@ -3,17 +3,27 @@ var wallpaperQRzone = new Image();
 wallpaperQRzone.crossOrigin = "Anonymous";
 var ImageData;
 var __awesome_qr_base_path = "js/vendor/awesome-qr"; 
-var sx = 362;
-var sy = 840;
+var sx = 160;
+var sy = 500;
 var sWidth = 400;
 var meCard = `MECARD:N:Doe,John;TEL:021345678;EMAIL:john.doe@example.com;;`;
 var c;
 var ctx;
+var actualDevice = "iPhone 6, 6s, 7, 8";
+var wallpaperFromDevice = "img/iphone8.jpg";
+
 var saveButton = document.getElementById("saveButton");
+var selectiPhone = document.getElementById("iphone-select");
+
     el("uploadedImage").addEventListener("change", readImage, false);
     saveButton.addEventListener("click",function() {
   saveCanvas("canvas")
   }, false);
+  selectiPhone.addEventListener("change",function() {
+deviceFromRes(selectiPhone.value);
+setSize();
+displayCanvas();
+}, false);
 function updateMeCard() {
     var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
@@ -43,6 +53,37 @@ function saveCanvas(idCanvas) {
       document.body.removeChild(lien);
     }
 }
+function deviceFromRes(res) {
+  switch (res) {
+    case '750 1334':
+        actualDevice = "iPhone 6, 6s, 7, 8";
+        wallpaperFromDevice = "img/iphone8.jpg";
+        break;
+    case '1242 2208':
+        actualDevice = " iPhone 6+,6s+,7+,8+";
+        wallpaperFromDevice = "img/iphone8+.jpg";
+        break;
+    case '1125 2436':
+        actualDevice = " iPhone 11 Pro, X, Xs";
+        wallpaperFromDevice = "img/iphoneX.jpg";
+        break;
+    case '828 1792':
+        actualDevice = " iPhone 11, Xr";
+        wallpaperFromDevice = "img/iphone11.jpg";
+
+        break;
+    case '1242 2688':
+        actualDevice = " iPhone 11 Pro Max, Xs Max";
+        wallpaperFromDevice = "img/iphone11promax.jpg";
+        break;
+    break;
+    default:
+    actualDevice = "iPhone 6, 6s, 7, 8";
+    wallpaperFromDevice = "img/iphone8.jpg";
+
+    }
+
+}
 function generateQR() {
     var imageCropped = new Image();
     imageCropped.crossOrigin = "Anonymous";
@@ -68,19 +109,31 @@ function generateQR() {
     ctx.drawImage(qrResult, sx, sy);
   }
   window.onload = function() {
+    setSize();
     displayCanvas();
-
-    
+generateQR();
   }
       /***********************************/
     /****---------- CANVAS ----------***/
     /***********************************/
+    
+
+    function setSize() {
+      var selectedIPhone = document.getElementById("iphone-select").value.split(" ");
+      console.log(selectedIPhone);
+      var resx = selectedIPhone[0];
+      var resy = selectedIPhone[1];
+            var canvas = document.getElementById("canvas");  
+      canvas.width = resx;
+      canvas.height = resy;
+    }
+
     function displayCanvas() {
           c = document.getElementById("canvas");
           ctx = c.getContext("2d");
           ctx.clearRect(0, 0, canvas.width, canvas.height);
           var wallpaper = new Image();  
-          wallpaper.src =  'img/wallpaper.png';
+          wallpaper.src = wallpaperFromDevice;
 
           wallpaper.addEventListener('load', function() {
           ctx.drawImage(wallpaper, 0, 0);
@@ -88,7 +141,7 @@ function generateQR() {
               wallpaper.onload = function(){
           cutCanvas();
           }
-                 generateQR();
+          generateQR();
     }
  
 function cutCanvas() {
