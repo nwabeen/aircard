@@ -32,12 +32,12 @@
     <input type="text" onkeyup="updateMeCard()" id="phone" placeholder="Phone number">
     <input type="text" onkeyup="updateMeCard()" id="email" placeholder="Email">
     <input type="file"
-           id="wallpaper" name="wallpaper"
+           id="uploadedImage" onchange="displayCanvas()" name="wallpaper"
            accept="image/png, image/jpeg">
-    <button onclick="saveCanvas(canvas.width,canvas.height)" class="button button-black">Download wallpaper</button>
+    <button id="saveButton" class="button button-black">Download wallpaper</button>
 </div>
     <div class="column">
-       <canvas id="canvas" width="1225" height="2436"></canvas>
+       <canvas id="canvas" width="1125" height="2436"></canvas>
 
       <img id="qrcode">
     </div>

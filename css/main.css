@@ -275,9 +275,9 @@ input[type="text"] {
   margin-top: 4rem;
 }
 
-#qrcode {
+#qrcode   {
 visibility: hidden;
 }
 h6 {
   font-size: 1.1rem;
-}     
+}    
