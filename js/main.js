@@ -23,7 +23,6 @@
             setSize();
             clearCanvas();
             displayCanvas();
-            generateQR();
             }, false);
             function updateMeCard() {
                 var email = document.getElementById("email").value;
@@ -161,6 +160,7 @@
                       }, false);
                           wallpaper.onload = function(){
                       cutCanvas();
+                      generateQR();
                       }
                 }
              
