@@ -47,7 +47,8 @@
             else {
               const lien = document.createElement("A");
               dataImage = canvas.toDataURL("image/jpeg");
-              if(!iPhone13andup) {
+              if(iPhone13andup) {
+                alert("iOS 13");
               lien.download = nomFile;
                }
 
