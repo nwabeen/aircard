@@ -6,6 +6,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
 	<h3 align="center">AirCard</h3>
+  <a href="https://nwabeen.github.io/aircard/">Demo</a>
 	<p align="center">
 The next way to share your number and email ! Hand over your smartphone to your new contact and let them simply scan your wallpaper. 
 	<br />
