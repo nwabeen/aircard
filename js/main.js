@@ -201,8 +201,9 @@
                          img.addEventListener("load", function() {
                         clearCanvas(centerX,centerY); 
                          ctx.drawImage(img, 0, 0);
+                        cutCanvas(centerX,centerY);
                         generateQR();
-                        cutCanvas();
+                        displayQR(centerX,centerY);
                          });
                          img.src = e.target.result;
                       };       
