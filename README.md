@@ -18,7 +18,7 @@ The next way to share your number and email ! Hand over your smartphone to your 
 	</p>
 </p>
 
- ![](img/mockup.jpg)
+ ![](img/mockup_iphone.jpg)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
