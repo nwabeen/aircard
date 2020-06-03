@@ -28,14 +28,13 @@
     <div class="column">
     <h1>AirCard</h1>
     <h6>The next way to share your number and email ! Hand over your smartphone to your new contact and let them simply scan your wallpaper. </h6>
-    <input type="text" placeholder="First name">
-  <input type="text" placeholder="Last name">
-    <input type="text" placeholder="Phone number">
-    <input type="text" placeholder="Email">
+    <input type="text" onkeyup="updateMeCard()" id="name" placeholder="Full name">
+    <input type="text" onkeyup="updateMeCard()" id="phone" placeholder="Phone number">
+    <input type="text" onkeyup="updateMeCard()" id="email" placeholder="Email">
     <input type="file"
            id="wallpaper" name="wallpaper"
            accept="image/png, image/jpeg">
-    <a href="" class="button button-black">Download wallpaper</a>
+    <button onclick="saveCanvas()" class="button button-black">Download wallpaper</button>
 </div>
     <div class="column">
        <canvas id="canvas" width="1225" height="2436"></canvas>
@@ -52,7 +51,9 @@
 
   <!-- Awesome QR -->
   <script type="text/javascript" src="js/vendor/awesome-qr/require.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/vendor/parse_names.js"></script>
+
+  <script  src="js/main.js"></script>
 
 
 </body>

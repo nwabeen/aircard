@@ -49,7 +49,6 @@ Special thanks to :
 * [Demo wallpaper](https://unsplash.com/photos/fJQamCZIZf8) by Dani García
 * [iPhone X Lockscreen mockup](https://dribbble.com/shots/3803481--FREE-iPhone-X-Mockup) by Jae-seong, Jeong
 
-Dani García
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/nwabeen/aircard.svg?style=flat-square
