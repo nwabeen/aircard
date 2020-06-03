@@ -118,7 +118,7 @@
                                 size: sWidth,
                                 margin: 0,
                                 autoColor: false,
-                                dotScale: 0.2,
+                                dotScale: 0.225,
                                 colorDark: "#212121",
                                 backgroundImage:imageCropped, 
                                 bindElement: "qrcode",
