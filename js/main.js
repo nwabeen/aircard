@@ -9,6 +9,7 @@ var sWidth = 400;
 var meCard = `MECARD:N:Doe,John;TEL:021345678;EMAIL:john.doe@example.com;;`;
 var c;
 var ctx;
+
 function updateMeCard() {
     var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
@@ -18,9 +19,8 @@ function updateMeCard() {
     meCard = `MECARD:N:${lname},${fname};TEL:${phone};EMAIL:${email};;`;
     generateQR();
 }
-  function saveCanvas() {
-    var cvsImage = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"); 
-    window.location.href=cvsImage; 
+  function saveCanvas(width,height) {
+Canvas2Image.saveAsPNG(c, width, height);
 }
 function generateQR() {
     var imageCropped = new Image();

@@ -34,7 +34,7 @@
     <input type="file"
            id="wallpaper" name="wallpaper"
            accept="image/png, image/jpeg">
-    <button onclick="saveCanvas()" class="button button-black">Download wallpaper</button>
+    <button onclick="saveCanvas(canvas.width,canvas.height)" class="button button-black">Download wallpaper</button>
 </div>
     <div class="column">
        <canvas id="canvas" width="1225" height="2436"></canvas>
@@ -48,6 +48,7 @@
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script  src="js/vendor/canvas2image.js"></script>
 
   <!-- Awesome QR -->
   <script type="text/javascript" src="js/vendor/awesome-qr/require.js"></script>
