@@ -39,7 +39,7 @@ Create your AirCard, choose your wallpaper, and a transparent QR code of your co
 * All others android devices
 
 Recommended Free (No ads) QR code reader
-[<img height='62' width='161' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>](https://play.google.com/store/apps/details?id=com.google.zxing.client.android)
+[<br><img height='62' width='161' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>](https://play.google.com/store/apps/details?id=com.google.zxing.client.android)
 
 <!-- ROADMAP -->
 ## Roadmap
