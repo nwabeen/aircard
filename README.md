@@ -28,7 +28,7 @@ Create your AirCard, choose your wallpaper, and a transparent QR code of your co
 
 
 <!-- ABOUT THE PROJECT -->
-## Supported Devices
+## Supported reading devices
 ### Apple
 * iPhone 5s or later
 ### Android
