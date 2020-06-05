@@ -30,10 +30,11 @@ Create your AirCard, choose your wallpaper, and a transparent QR code of your co
 <!-- ABOUT THE PROJECT -->
 ## Supported devices for QR code detection
 ### Apple
+#### With pre-installed camera app (No installation required)
 * iPhone 5s or later
 ### Android
 #### With pre-installed camera app (No installation required)
-* Samsung Galaxy S10 / S10+ / S10e / S9 / S9+
+* Samsung Galaxy S10 / S10+ / S10e / S9 / S9+ / S8 / S8+
 * Google Pixel devices
 #### With third party app
 * All others android devices
