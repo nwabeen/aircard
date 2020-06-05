@@ -26,6 +26,22 @@ The next way to share your number and email ! Hand over your smartphone to your 
 Phone numbers are very long and difficult to remember. Some people have very long email with unpronounceable nickname. AirCard will help you to share your number and email with other people without the hassle of spelling or writing your number.
 Create your AirCard, choose your wallpaper, and a transparent QR code of your contact info will be added. Download it to your smartphone, and set it as a wallpaper. The next time you meet someone new, hand over your smartphone to them, and let them scan the code with their smartphone camera app (natively supported by all recent devices, no need of a third party app). Tada ! Now your friend will have your number and email without getting into a spelling nightmare !
 
+
+<!-- ABOUT THE PROJECT -->
+## Supported devices for QR code detection
+### Apple
+#### With pre-installed camera app (No installation required)
+* iPhone 5s or later
+### Android
+#### With pre-installed camera app (No installation required)
+* Samsung Galaxy S10 / S10+ / S10e / S9 / S9+ / S8 / S8+
+* Google Pixel devices
+#### With third party app
+* All others android devices
+
+Recommended Free (No ads) QR code reader
+[<br><img height='62' width='161' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>](https://play.google.com/store/apps/details?id=com.google.zxing.client.android)
+
 <!-- ROADMAP -->
 ## Roadmap
 
